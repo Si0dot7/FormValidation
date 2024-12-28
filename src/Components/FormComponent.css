@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box; /*ปรับให้เป็นขนาดจริง*/
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; /*3 บรรทัดนี้คือการกำหนดให้ block ของเรามาอยู่ตรงกลาง ไม่จับตัวเป็นก้อน*/
+    margin: 0;
+    min-height: 100vh;
+    background: darkslateblue;
+}
+.container{
+    background: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+.form{
+    padding: 10px 40px; /*ขยายพื้นที่*/
+}
+
+h2{
+    text-Align: center; 
+}
+
+.form-control{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    display: block;
+    border: 2px solid darkgrey; /*สีกรอบ*/
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form button{
+    background: darkslateblue;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid darkslateblue;
+    display: block;
+    padding: 10px; /*ขนาดด้านในปุ่ม */
+    font-size: 16px;
+}
