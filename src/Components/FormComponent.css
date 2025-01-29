@@ -8,7 +8,7 @@ body{
     justify-content: center; /*3 บรรทัดนี้คือการกำหนดให้ block ของเรามาอยู่ตรงกลาง ไม่จับตัวเป็นก้อน*/
     margin: 0;
     min-height: 100vh;
-    background: darkslateblue;
+    background: radial-gradient(#0d003b, #919afe72);
 }
 .container{
     background: whitesmoke;
